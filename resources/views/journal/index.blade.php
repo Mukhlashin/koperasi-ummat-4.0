@@ -6,30 +6,8 @@
 
 <!doctype html>
     <div class="row m-0 vh-100">
-      <div class="col-md-2 col-6 bg-custom-1 p-0" id="navbarToggleExternalContent">
-        <ul class="nav flex-column " style="margin-top: 50px;">
-          @include('layouts.sidebar')
-        </ul>
-      </div>
-      <div class="col-md-10 p-0" id ="uiNavbar">
-        <div class="main-toolbar bg-custom-2" style="width: 100%;">
-          <i class="bi bi-justify fs-1 text-white" style="text-align: left !important;" id="demo" onclick="closeNav()"></i>
-          <div class="navbar-right">
-              <div class="dropdown">
-                <a class="btn dropdown-toggle " style="color: white;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  Marc Spector
-                </a>
-              
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </div>
-          </div>
-        </div>
-  
-        <div class="container-fluid " style="min-height: 640px; background-color:#e2e0e070 ;">
+    @include('layouts.sidebar')
+    <div class="container-fluid " style="min-height: 640px; background-color:#e2e0e070 ;">
           <div class="row m-0">
             <div class="col-md-12 p-3 height-content" >
               <div class="card shadow">
@@ -132,8 +110,6 @@
                             <td>41247124</td>
                             <td><a href="" class="btn btn-primary" style="margin-left: 5px;"><i class="fa-solid fa-pencil"></i></a><a href="" class="btn btn-warning"><i class="fa-solid fa-trash"></i></a></td>
                           </tr>
-                          
-                          
                         </tbody>
                       </table>
                     </div>
@@ -155,11 +131,13 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              
+              </div> 
             </div>
           </div>
-        </div>
+        </div>  
+        
+  
+       
        
       </div>
     </div>
